@@ -144,6 +144,12 @@ a {
     }
 }
 
+#page-top {
+  {% if site.background-img %}
+  background: url({{ site.background-img }}) no-repeat bottom center fixed;
+  {% endif %}
+}
+
 .intro {
     display: table;
     width: 100%;

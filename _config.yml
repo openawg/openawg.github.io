@@ -42,7 +42,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-# background-img: "../img/intro-bg.jpg"
+background-img: "../img/pexels-photo-37487.jpeg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -151,9 +151,9 @@ social:
 
 pages_list:
   About: 'about'
-#  Blog: 'latest-post'
-#  Timeline: 'timeline'
-#  Contact: 'contact'
+#   Blog: 'latest-post'
+#   Timeline: 'timeline'
+#   Contact: 'contact'
 
 # Exclusion list from the generated _site
 
