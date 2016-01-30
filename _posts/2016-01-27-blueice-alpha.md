@@ -1,5 +1,6 @@
 ---
 comments: true
+section-type: post
 layout: post
 tags: [prototype]
 title: BlueIce Alpha
