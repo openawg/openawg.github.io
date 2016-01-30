@@ -1,7 +1,8 @@
 ---
+comments: true
 layout: post
-title: BlueIce Alpha
 tags: [prototype]
+title: BlueIce Alpha
 ---
 
 IT WORKS! We successfully made water from the air at NIMBY<sup>[0](#0)</sup> in Oakland, California. Don’t worry, we filtered the water (reverse osmosis) before we drank it.
