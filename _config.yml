@@ -30,7 +30,7 @@ force-https: False
 
 lang: "en"
 author: "OpenAWG"
-title: "{ OpenAWG }"
+title: "[ OpenAWG ]"
 description: "Open source water generation"
 # keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
@@ -42,7 +42,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/pexels-photo-37487.jpeg"
+# background-img: "../img/pexels-photo-37487.jpeg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -95,7 +95,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-# disqus-shortname: "panossakkos"
+disqus-shortname: "openawg"
 
 syntax-highlight: True
 
@@ -151,7 +151,7 @@ social:
 
 pages_list:
   About: 'about'
-#   Blog: 'latest-post'
+  Blog: 'latest-post'
 #   Timeline: 'timeline'
 #   Contact: 'contact'
 
