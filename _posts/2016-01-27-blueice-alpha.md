@@ -12,7 +12,7 @@ MacGyver would be proud: we were able to pull ordinary off the shelf parts toget
 
 We have come a long way since we started in September with a scavenged thermoelectric heat pump and small heat exchanger.<sup>[fig1](#fig1)</sup> <sup>[fig2](#fig2)</sup> The alpha build has taken shape and is currently NIMBY's first atmospheric water generator! But it doesn’t end there for us, we are already working on increasing the structure’s size and water generating capacity.
 
-BlueIce Alpha is our first prototype AWG with the [reword this] eventual goal of openAWG v1, which can supply 1,300 L / 24h pre-filtered @ 612 Wh/L.<sup>[3](#3)</sup> BlueIce will also be used as a basis for fundraising. We plan to produce the drinking water served at our fundraising events and hope to auction off the prototype.
+BlueIce Alpha is our first prototype AWG on the roadmap to openAWG v1, which can supply 1,300 L / 24h pre-filtered @ 612 Wh/L.<sup>[3](#3)</sup> BlueIce will also be used as a basis for fundraising. We plan to produce the drinking water served at our fundraising events and hope to auction off the prototype.
 
 We are constructing test rigs to automate experiments that will inform our implementation as the project progresses towards openAWG v1 deployment at BRC. The final BlueIce release is simply a scaled version of BlueIce Alpha -- with more dehumidifiers collecting water from the air.
 
