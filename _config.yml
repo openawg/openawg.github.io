@@ -105,37 +105,37 @@ syntax-highlight: True
 ############
 
 events:
-  - image: ""
+  - image: "/assets/work.png"
     date: "Now"
     description: "Work is currently ongoing for modeling, prototyping, and figuring out budgets and fundraising"
-  - image: ""
+  - image: "/assets/open_source.png"
     date: "February 2016"
     description: "BlueIce Alpha, our first prototype, is open sourced"
-  - image: ""
+  - image: "/assets/burning_man.png"
     date: "February 2016"
     description: "Submitted BRC Honoraria application"
-  - image: "/assets/IMG_9957.jpg"
+  - image: "/assets/mvp.png"
     date: "January 2016"
     description: "Got an MVP up and running, and connected a reverse osmosis filtration system."
-  - image: ""
+  - image: "/assets/burning_man.png"
     date: "December 2015"
     description: "Invited to submit BRC Honoraria application"
-  - image: ""
+  - image: "/assets/sun_rising.png"
     date: "December 2015"
     description: "With Ted’s climate predictions, we made a rough model and made some engineering decisions on heat pumps"
-  - image: ""
+  - image: "/assets/burning_man.png"
     date: "November 2015"
     description: "Submitted Black Rock City Honoraria letter of interest"
-  - image: ""
+  - image: "/assets/black_rock_desert.png"
     date: "November 2015"
     description: "Met meterologist Ted Hullar and got excellent Black Rock Desert weather data"
-  - image: "/assets/IMG_9364.jpg"
+  - image: "/assets/proof_of_concept.png"
     date: "September 2015"
     description: "Proof of concept built with spare parts. We started pumping heat around"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/assets/water_droplets.png"
 
 ###########
 # Contact #
