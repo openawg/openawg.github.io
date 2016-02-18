@@ -107,31 +107,31 @@ syntax-highlight: True
 events:
   - image: ""
     date: "Now"
-    description: "Work is currently ongoing for models, prototypes, budgets, fundraisers, etc."
+    description: "Work is currently ongoing for modeling, prototyping, and figuring out budgets and fundraising"
   - image: ""
     date: "February 2016"
-    description: "BlueIce Alpha is open sourced"
+    description: "BlueIce Alpha, our first prototype, is open sourced"
   - image: ""
     date: "February 2016"
-    description: "Submitted BRC Honoraria Application"
+    description: "Submitted BRC Honoraria application"
   - image: "/assets/IMG_9957.jpg"
     date: "January 2016"
-    description: "For the next prototype, we needed to scale the POC to produce a larger amount of water. By taking a heat pump already optimized for the task of phase changing water vapor, we reduced the amount of work needed to get an MVP up and running, and slapped a pump onto a reverse osmosis filtration system."
+    description: "Got an MVP up and running, and connected a reverse osmosis filtration system."
   - image: ""
     date: "December 2015"
-    description: "Invited to submit BRC Honoraria Application"
+    description: "Invited to submit BRC Honoraria application"
   - image: ""
     date: "December 2015"
-    description: "With Ted’s climate prediction, we were able to run some calculations and produce a rough model describing what will happen given a bunch of independent variables like heat pumping capacity, energy consumption of components, etc. We are currently using [heat pump model here] and predict a capacity of 65L / 24h with an efficiency of 637 Wh/L. Given that specific heat consumes some of the heat pumping capacity, we can separate our concerns by utilizing a separate heat pump for lowering the temperature of the incoming air (pretreatment)."
+    description: "With Ted’s climate predictions, we made a rough model and made some engineering decisions on heat pumps"
   - image: ""
     date: "November 2015"
-    description: "Submitted BRC Honoraria LOI"
+    description: "Submitted Black Rock City Honoraria letter of interest"
   - image: ""
     date: "November 2015"
-    description: "In our search for BRD (Black Rock Desert) weather data, we found some weather stations nearby (~20 miles: DRYN2 @ [41.50000, -119.11670]), but the terrain might cause microclimates. We asked around, and got introduced to Ted Hullar, a meteorologist who has run a weather station at Burning Man for the past couple of years. Ted was able to calculate a climate prediction normalized against the surrounding weather stations in the area and provide hourly averages (high, average, low) for late August and early September."
+    description: "Met meterologist Ted Hullar and got excellent Black Rock Desert weather data"
   - image: "/assets/IMG_9364.jpg"
     date: "September 2015"
-    description: "A quick and easy POC (proof of concept) thrown together with spare parts. I was reading about the water crisis and realized I had some TECs (thermoelectric coolers) and small radiators laying around, so I tried pumping some heat around."
+    description: "Proof of concept built with spare parts. We started pumping heat around"
 
 # First image of the Timeline
 
@@ -179,7 +179,7 @@ pages_list:
 
 # Exclusion list from the generated _site
 
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts", "vendor"]
 
 # Pagination path
 
