@@ -125,7 +125,7 @@ events:
     description: "With Ted’s climate predictions, we made a rough model and made some engineering decisions on heat pumps"
   - image: "/assets/burning_man.png"
     date: "November 2015"
-    description: "Submitted Black Rock City Honoraria letter of interest"
+    description: "Submitted Black Rock City Honoraria letter of intent"
   - image: "/assets/black_rock_desert.png"
     date: "November 2015"
     description: "Met meterologist Ted Hullar and got excellent Black Rock Desert weather data"
@@ -175,6 +175,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Timeline: 'timeline'
+  FAQ: 'faq'
 #   Contact: 'contact'
 
 # Exclusion list from the generated _site

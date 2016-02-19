@@ -8,15 +8,17 @@
         {{ page.content | markdownify }}
 
         {% assign post = site.posts.first %}
-        <h4> <strong> {{ post.date | date_to_string }} </strong>
-          <small> {{ post.category }} </small>
-          <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
-          <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+        <h4>
+          <a href="{{site.baseurl}}{{ post.url }}">//{{post.title}}</a>
+          &nbsp;&nbsp;{{ post.date | date_to_string }}&nbsp;&nbsp;
+          <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
         </h4>
 
-        {{ post.content | truncatewords: site.post-preview-words | markdownify }}
+        <p>
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{site.baseurl}}{{ post.url }}">READ MORE&gt;&gt;</a>
+        </p>
 
-        <h4><a href="{{site.baseurl}}/blog/">View more posts</a></h4>
+        <h5><a href="{{site.baseurl}}/blog/">View more posts</a></h5>
 
       </div>
     </div>

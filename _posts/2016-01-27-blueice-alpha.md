@@ -7,6 +7,7 @@ title: BlueIce Alpha
 ---
 
 IT WORKS! We successfully made water from the air at NIMBY<sup>[0](#0)</sup> in Oakland, California. Don’t worry, we filtered the water (reverse osmosis) before we drank it.
+<!--more-->
 
 MacGyver would be proud: we were able to pull ordinary off the shelf parts together to make this prototype function.<sup>[fig0](#fig0)</sup> We are successfully generating water from thin air! BlueIce Alpha, the first prototype of our large-scale AWG (atmospheric water generator),<sup>[1](#1)</sup> is able to generate 12 L of pre-filtered water per 24h at a cost of 1.4 kWh/L.<sup>[2](#2)</sup>
 

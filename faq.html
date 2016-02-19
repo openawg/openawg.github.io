@@ -1,0 +1,108 @@
+---
+layout: null
+section-type: faq
+title: FAQ
+---
+# FAQ
+
+## How can you calculate the mass of water in the air?
+This NASA technical note<sup>0</sup> describes how to derive absolute humidity from TMP C and DWP C:
+
+<pre><code data-trim class="ruby">=((0.21668*((TMPC+273)^-1))*((DWPC+273)^-4.9283)*(10^(23.5518+(-2937.4/(DWPC+273)))))*1000
+</code></pre>
+
+We calculate the dewpoint from the temperature and relative humidity with this equation<sup>1,2</sup>:
+<pre><code data-trim class="ruby">=243.04*(LN(RH/100)+((17.625*TMPC)/(243.04+TMPC)))/(17.625-LN(RH/100)-((17.625*TMPC)/(243.04+TMPC)))
+</code></pre>
+<small>
+  \[0\]: <a href="http://www.nasa.gov/centers/dryden/pdf/87878main_H-937.pdf">NASA TN D-8401 Equations for the Determination of Humidity From Dewpoint and Psychrometric Data</a>
+  <br>
+  \[1\]: <a href="http://andrew.rsmas.miami.edu/bmcnoldy/Humidity.html">Temperature, Dewpoint, and Relative Humidity Calculator</a>
+  <br>
+  \[2\]: <a href="https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation#Meteorology_and_climatology">Wikipedia - Clausius–Clapeyron relation</a>
+</small>
+
+## How much water can you pull out of the air each day?
+
+TL;DR:
+<pre><code data-trim class="ruby">1951.85 J/s * 1g/2591j * 86400s/24h * 1L/1000g * 24h/1day = 65L/1day</code></pre>
+
+It largely depends on the capacity of the heat pump. From the manufacturer’s specifications of Copeland model `M4FF-0075-CAA-050`<sup>0</sup>, we are able to assume a capacity of `6,660 BTU/hr * 0.29307107 = 1,951.85 J/s @ -3.89 C`.
+
+Because the dew point at BRC is on average `-10 – 10 C`, we must combine the enthalpy of condensation<sup>1</sup> and fusion<sup>2</sup> `(2257 + 333.55) J/g`.
+
+Not only do we need to pump heat for the phase change, but we also need to bring the temperature of the water vapor down to the phase change temperature. The specific heat of air `1.0035 J/gK` and H2O vapor `2.080 J/gK`<sup>3</sup> are orders of magnitude less than the `2590.55 J/g` required to separate the water vapor from the air. By using a mini-split A/C unit to “pre-cool” the intake air to the phase change temperature, we can separate our concerns of temperature enthalpy and phase change enthalpy.
+
+Mix all the numbers together, and we get 65L per day. This is assuming we're able to supply the heat pump with enough water vapor.
+
+<small>
+  \[0\]: <a href="http://orders.sidharvey.com/IMAGES/specs/M4FF0075CAA020.pdf">M4FF-0075-CAA-050 Specifications</a>
+  <br>
+  \[1\]: <a href="https://en.wikipedia.org/wiki/Enthalpy_of_vaporization#Other_common_substances">Wikipedia - Enthalpy of vaporization - Other common substances</a>
+  <br>
+  \[2\]: <a href="https://en.wikipedia.org/wiki/Enthalpy_of_fusion#Reference_values_of_common_substances">Wikipedia - Enthalpy of fusion - Reference values of common substances</a>
+  <br>
+  \[3\]: <a href="https://en.wikipedia.org/wiki/Heat_capacity#Table_of_specific_heat_capacities">Wikipedia - Heat capacity - Table of specific heat capacities</a> 
+</small>
+
+## How much energy does this process consume?
+It largely depends on which heat pump we use. Based upon the manufacturer’s specifications for `M4FF-0075-CAA-050`<sup>0</sup>, we can assume a power consumption of 1168.42 W at -3.89º C. Based upon the manufacturer’s specification for the mini-split a/c unit, we can assume a power consumption of 710 W at -15º C. These numbers give us an efficiency of 640.43 Wh/L<sup>1</sup>.
+
+<small>
+  \[0\]: <a href="http://www.mitsubishipro.com/media/382145/m-series_revised_july13.pdf">Mitsubishi M-Series Contractor Guide</a>
+  <br>
+  \[1\]: We haven't taken volumetric capacity into account yet, but it's in the backlog. If you'd like to help, drop us a line :)
+</small>
+
+## How much water is in BRC air?
+Ted Hullar has operated a weather station at BRC for the past couple of years. He modeled a normalized climate prediction (late Aug / early Sep) using past weather data from BRC and normalizing it against surrounding weather stations.
+We can predict hourly averages for:
+<pre><code data-trim class="ruby">Temperature: 15 - 31 C
+Dewpoint: -4.37 - 4.68 C
+Relative Humidity: 17 - 30 %
+Absolute Humidity: 3.33 - 6.08 g/m^3
+</code></pre>
+![BRC Climate Prediction](/assets/BRCClimatePrediction.png)
+
+## Can you use commercially available dehumidifiers?
+Our BlueIce<sup>0</sup> prototype is constructed using commercially available dehumidifiers, and isn't designed to work in arid environments (&lt;45%). We are not sure if it will even operate in BRD conditions, but we plan on testing it alongside openAWG v0 in BRD.
+
+<small>
+  \[0\]: <a href="{% post_url 2016-01-27-blueice-alpha %}">BlueIce Alpha</a>
+  <br>
+  \[1\]: <a href="https://github.com/openawg/openawg/tree/master/blueice">openAWG - BlueIce Alpha</a>
+</small>
+
+## Why is dehumidifier water considered greywater?
+Because you will go crazy and die. Most dehumidifier components are not food-grade, and may contain heavy metals such as lead<sup>0</sup>.
+
+<small>
+  \[0\] <a href="https://en.wikipedia.org/wiki/Dehumidifier#Potability">Wikipedia - Dehumidifier - Potability</a>
+</small>
+
+## What are the efficiencies of commercially available dehumidifiers?
+Based on the manufacturer’s specifications for Keystone KSTAD70B<sup>0</sup>, `70 pints / 24h @ 720 W` gives us a predicted efficiency of `17,280Wh / 33.1224L = 521.70Wh/L`. This is an optimistic prediction, with the dehumidifier running in ideal conditions. We observed a capacity of `12L/24h @ 12.8C ambient, 6.38C DWP, 65% RH, 7.28g/m^3 AH, 500 W`, which gives us an efficiency of `12,000Wh/12L = 1kWh/L`.
+
+<small>
+  \[0\]: <a href="http://amzn.com/B00CEZA018">Amazon - Keystone Energy Star 70 Pt. Dehumidifier</a>
+</small>
+
+## What is the performance of commercially available dehumidifiers in the BRD environment?
+We are not sure, but we are going to test BlueIce alongside openAWG v0.
+
+## What are the ways in which water vapor is separated from the air?
+Thermal condensation, absorption/dessicant, ionic membrane<sup>0</sup>.
+
+<small>
+  \[0\]: <a href="https://en.wikipedia.org/wiki/Dehumidifier">Wikipedia - Dehumidifier</a>
+</small>
+
+## Is the water going to be safe to drink?
+RO<sup>0</sup> (reverse osmosis) is typically used to remove dissolved solids such as metals, salts, minerals, and bacteria. We will send samples to a laboratory to certify that the current filtration system is able to produce potable water. The resulting RO water is remineralized to ensure people’s cells do not explode from osmotic pressure.
+
+<small>
+  \[0\]: <a href="https://en.wikipedia.org/wiki/Reverse_osmosis">Wikipedia - Reverse osmosis</a>
+</small>
+
+## What tests need to be run on water to certify potability?
+Currently we are running tests for trace metals, ph, turbidity, and bacterial content, with more to come!
