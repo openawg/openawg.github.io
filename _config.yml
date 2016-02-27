@@ -43,24 +43,27 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-# background-img: "../img/pexels-photo-37487.jpeg"
+#background-img: "../img/pexels-photo-37487.jpeg"
+background-video: "/assets/DehumidifierCloseupWebsite.mp4"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: False
-# shuffle: True # Shuffle the lines.
-# loop: True
-# loop-count: False # Set False for infinite loop, or set any number for finite loop.
-# type-speed: 10
-# start-delay: 200
-# delete-delay: 5000
-# lines: # You can add HTML Tags in the Text
-#   - text: "The lower you fall, the higher you'll fly."
-#   - text: "Where’s your will to be weird?"
-# 
-# me-img: "/img/jetpacktocat.png"
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "663 million people - 1 in 10 - lack access to safe water."
+  - text: "Twice the population of the United States lives without access to safe water."
+  - text: "Every 90 seconds a child dies from a water-related disease."
+  - text: "160 million children suffer from stunting and chronic malnutrition linked to water and sanitation."
+
+me-img: "/assets/water_droplets.png"
 
 ################
 # Web app mode #
