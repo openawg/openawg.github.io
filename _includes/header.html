@@ -3,9 +3,12 @@
 
 <header class="intro">
   <div class="intro-body">
-    <video autoplay loop poster="{{ site.background-video }}" id="bgvid">
-      <source src="{{ site.background-video }}" type="video/mp4">
-    </video>
+    <div id="video-container">
+      <video autoplay loop poster="{{ site.background-video }}" id="bgvid">
+        <source src="{{ site.background-video }}" type="video/mp4">
+      </video>
+      <div id="video-overlay"></div>
+    </div>
     <div class="container">
       <div class="row">
           <div class="col-md-10 col-md-offset-1">
