@@ -168,6 +168,7 @@ video#bgvid {
 video#bgvid.fillWidth {
     width: 100%;
 }
+
 #video-overlay {
     position: absolute;
     top:0%;
@@ -178,6 +179,14 @@ video#bgvid.fillWidth {
     background: rgba(10,10,10,.4);
 }
 
+@media screen and (max-device-width: 800px) {
+  .intro {
+    background: url(/assets/DehumidifierCloseupWebsiteStill.jpg) #000 no-repeat bottom left fixed;
+  }
+  #bgvid {
+    display: none;
+  }
+}
 
 .intro {
     display: table;
