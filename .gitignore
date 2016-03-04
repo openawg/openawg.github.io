@@ -16,6 +16,9 @@ test/
 _deploy/*
 .jekyll-metadata
 
+# Ruby
+.bundle/
+vendor/bundle
 
 # From: https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
 
