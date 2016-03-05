@@ -264,7 +264,7 @@ video#bgvid.fillWidth {
       }
 
       .intro-text {
-        font-size: 26px;
+        font-size: $intro-text-size;
       }
 
       .img-me {
@@ -448,7 +448,8 @@ body {
 
 /* Added in { Personal } for Typed Cursor in Header */
 .typed-cursor{
-    font-size: 26px;
+    font-size: $intro-text-size;
+    background-color: $intro-text-color;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
