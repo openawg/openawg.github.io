@@ -3,25 +3,21 @@
 
 <header class="intro">
   <div class="intro-body">
+
     <div id="video-container">
       <video autoplay loop poster="{{ site.background-video }}" id="bgvid">
         <source src="{{ site.background-video }}" type="video/mp4">
       </video>
       <div id="video-overlay"></div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <h1 class="brand-heading">&nbsp;</h1>
-          <h1 class="brand-heading">&nbsp;</h1>
-          <span class="intro-text">{{ content }}</span>
-          <h5>&nbsp;</h5>
-          <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-            <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
-          </a>
-        </div>
-      </div>
+
+    <div class="intro-box">
+      <span class="intro-text">{{ content }}</span>
+      <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
+        <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+      </a>
     </div>
+
   </div>
 </header>
 

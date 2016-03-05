@@ -189,45 +189,99 @@ video#bgvid.fillWidth {
 }
 
 .intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: $intro-text-color;
-    {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
-    {% endif %}
-    background-color: $header-background-color;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: $intro-text-color;
+  {% if site.background-img %}
+  background: url({{ site.background-img }}) no-repeat bottom center scroll;
+  {% endif %}
+  background-color: $header-background-color;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+
+    .brand-heading {
+      font-size: 40px;
+    }
+
+    .intro-text {
+      font-size: 18px;
+      background: black;
+      @if $navbar-text-shadow {
+          text-shadow: 1px 0 1px #000;
+      }
+    }
+
+    .intro-box {
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      top: 50%;
+      left: 50%;
+      margin-top: -150px;
+      margin-left: -160px;
+    }
+
+    .img-me {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -50px;
+    }
+  }
+
+  @media(max-width: 321px) {
     .intro-body {
-        display: table-cell;
-        vertical-align: middle;
-        .brand-heading {
-            font-size: 40px;
-        }
-        .intro-text {
-            font-size: 18px;
-            @if $navbar-text-shadow {
-                text-shadow: 1px 0 1px #000;
-            }
-        }
+      .intro-box {
+        top: 60%;
+      }
     }
-    @media(min-width:768px) {
-        height: 100%;
-        padding: 0;
-        .intro-body {
-            .brand-heading {
-                font-size: 100px;
-            }
-            .intro-text {
-                font-size: 26px;
-            }
-        }
+  }
+
+  @media(min-width:768px) {
+    height: 100%;
+    padding: 0;
+
+    .intro-body {
+
+      .brand-heading {
+        font-size: 100px;
+      }
+
+      .intro-text {
+        font-size: 26px;
+      }
+
+      .img-me {
+        margin-left: -75px;
+      }
+
+      .intro-box {
+        width: 600px;
+        height: 500px;
+        margin-top: -250px;
+        margin-left: -300px;
+      }
+
     }
+  }
+
+  @media(min-width: 992px) {
+    .intro-body {
+
+      .img-me {
+      margin-left: -100px;
+      }
+    }
+  }
 }
 
 @-webkit-keyframes pulse {
