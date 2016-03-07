@@ -13,7 +13,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Montserrat","Inconsolata",Courier New,Courier,sans-serif;
+    font-family: $reading-font;
     color: $light;
     background-color: $dark;
 }
@@ -31,7 +31,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $reading-font;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -40,12 +40,10 @@ h2 {font-size: 26px;}
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: $base-font-size;
     line-height: 1.5;
     @media(min-width:768px) {
         margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
     }
 }
 
@@ -78,7 +76,7 @@ a {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($light, 0.3);
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $reading-font;
     background-color: $navbar-sm-background-color;
 
     /* Fix height limit and scroll for small screen and many items menu */
@@ -87,7 +85,7 @@ a {
 
     .navbar-toggle {
         padding: 4px 6px;
-        font-size: 16px;
+        font-size: $base-font-size;
         color: $navbar-color;
         &:focus,
         &:active {
@@ -220,8 +218,8 @@ video#bgvid.fillWidth {
     }
 
     .intro-text {
-      font-size: 18px;
-      font-family: "Inconsolata",Courier New,Courier,sans-serif;
+      font-size: $base-font-size;
+      font-family: $code-font;
       background: black;
       @if $navbar-text-shadow {
           text-shadow: 1px 0 1px #000;
@@ -346,7 +344,7 @@ video#bgvid.fillWidth {
     ol {
         text-align: center;
         margin: 0 0 25px;
-        font-size: 18px;
+        font-size: $base-font-size;
         line-height: 1.5;
         list-style-position: inside;
     }
@@ -366,7 +364,7 @@ video#bgvid.fillWidth {
 
 .btn {
     border-radius: 0;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $reading-font;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
