@@ -68,8 +68,8 @@ a {
 }
 
 .container {
-  @media(min-width: 1200px) {
-    width: 860px
+  @media(min-width: 992px) {
+    width: $large-screen-width;
   }
 }
 .navbar-custom {

@@ -8,6 +8,8 @@ $reading-font: -apple-system, ".SFNSText-Regular", "Roboto", "Segoe UI", "Oxygen
 $code-font: Menlo, Monaco, Consolas, "Courier New", monospace;
 $base-font-size: 18px;
 
+$large-screen-width: 860px; // for better legibility on 992px+ wide screens
+
 $navbar-text-shadow: true;
 $header-text-shadow: true;
 $header-background-color: $dark;
