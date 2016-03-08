@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
 
-          <h1><strong>{{ page.title }}</strong></h1>
+          <h1>{{ page.title }}</h1>
           <h4><strong>{{ page.date | date_to_string }}</strong>
             <small> {{ page.category }} <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
             {% for tag in page.tags %}
