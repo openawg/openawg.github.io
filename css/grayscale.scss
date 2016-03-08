@@ -364,6 +364,10 @@ video#bgvid.fillWidth {
     }
 }
 
+.highlighter-rouge {
+  color: hsla(0,0%,67%,1);
+  background: hsla(223,22%,24%,0.7);
+}
 .btn {
     border-radius: 0;
     font-family: $reading-font;
