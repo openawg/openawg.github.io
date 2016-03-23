@@ -8,6 +8,7 @@ title: Fresh from the lab
 TL;DR: The water generated from our atmospheric water generator was sent to an EPA-certified laboratory for testing. It was tested for pH (acidity/alkalinity), turbidity (cloudiness), metal content, mineral content, and bacterial contamination. So far, it looks good, but we need to run more tests!
 <!--more-->
 
+<h2>Lab Reports</h2>
 [Report 0](/assets/openAWG_report0.pdf){:target="\_blank"}
 <br>
 [Report 1](/assets/openAWG_report1.pdf){:target="\_blank"}
