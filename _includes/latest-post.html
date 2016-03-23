@@ -7,7 +7,7 @@
 
         {{ page.content | markdownify }}
 
-        {% assign post = site.posts.first %}
+        {% for post in site.posts limit 4%}
         <h4>
           <a href="{{site.baseurl}}{{ post.url }}">//{{post.title}}</a>
           &nbsp;&nbsp;{{ post.date | date_to_string }}&nbsp;&nbsp;
@@ -17,6 +17,8 @@
         <p>
         {{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{site.baseurl}}{{ post.url }}">READ MORE&gt;&gt;</a>
         </p>
+
+        {% endfor %}
 
         <h5><a href="{{site.baseurl}}/blog/">View more posts</a></h5>
 
