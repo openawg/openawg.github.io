@@ -21,7 +21,17 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4><strong>{{ member.name }}</strong><br><small>{{ member.position }}</small></h4>
+                <h4>
+                  <strong>
+                    {% if member.link != "" %}
+                      <a href="{{ member.link }}">{{ member.name }}</a>
+                    {% else %}
+                      {{ member.name }}
+                    {% endif %}
+                  </strong>
+                  <br>
+                  <small>{{ member.position }}</small>
+                </h4>
               </div>
               <div class="timeline-body">
                 {{ member.bio | markdownify }}

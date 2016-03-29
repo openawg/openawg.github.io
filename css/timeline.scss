@@ -18,6 +18,10 @@
     background-color: #f1f1f1;
 }
 
+section#team .timeline:before {
+    width: 0px !important;
+}
+
 .timeline>li {
     position: relative;
     margin-bottom: 50px;
