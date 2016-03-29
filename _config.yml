@@ -92,7 +92,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Annual aid for water and sanitation amounts to only US $8 billion--far short of the $1 trillion needed to solve this crisis and maintain it long term."
   - text: "Access to credit plays a significant role in triggering household sanitation investments, increasing health and providing families the dignity of a toilet."
 
-me-img: "/assets/water_droplets.png"
+img-me: "/assets/IGG_FundedWithBadges_WhiteOutlined_RGB.png"
 
 ################
 # Web app mode #
@@ -140,7 +140,7 @@ events:
   - image: "/assets/work.png"
     date: "Now"
     description: "Work is currently ongoing for modeling, prototyping, and figuring out budgets and fundraising"
-  - image: "/assets/IGG_FundedWithBadge.png"
+  - image: "/assets/IGG_FundedWithBadges_Gogenta_RGB.png"
     date: "March 2016"
     description: "<a href=\"https://igg.me/at/thechurchofwater/\">Indiegogo campaign for openAWGv0 launched!</a>"
   - image: "/assets/LabChemicals.png"
