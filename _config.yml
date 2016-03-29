@@ -184,16 +184,6 @@ timeline-img: "/assets/water_droplets.png"
 ########
 
 team_members:
-  - image: "/assets/leah_makley.jpg"
-    link: "https://www.linkedin.com/in/makley"
-    name: "Leah Makley, Ph.D."
-    position: "Advisor"
-    bio: "Resident chemist, helping out with all the little molecules and their friends"
-  - image: "/assets/ted_hullar.jpg"
-    link: "https://www.linkedin.com/in/ted-hullar-a117502"
-    name: "Ted Hullar, Ph.D."
-    position: "Advisor"
-    bio: "Resident meteorologist, helping with predictions, modeling, and Science™"
   - image: "/assets/clayrichardson.jpg"
     link: "http://clayrichardson.me/"
     name: "clay richardson"
@@ -229,6 +219,16 @@ team_members:
     name: "William Albright"
     position: "Engineer"
     bio: "Web engineer with interests in science and social justice"
+  - image: "/assets/leah_makley.jpg"
+    link: "https://www.linkedin.com/in/makley"
+    name: "Leah Makley, Ph.D."
+    position: "Advisor"
+    bio: "Resident chemist, helping out with all the little molecules and their friends"
+  - image: "/assets/ted_hullar.jpg"
+    link: "https://www.linkedin.com/in/ted-hullar-a117502"
+    name: "Ted Hullar, Ph.D."
+    position: "Advisor"
+    bio: "Resident meteorologist, helping with predictions, modeling, and Science™"
 
 ###########
 # Contact #
