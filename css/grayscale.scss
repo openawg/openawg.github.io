@@ -227,6 +227,16 @@ video#bgvid.fillWidth {
       }
     }
 
+    .typed-cursor{
+        font-size: $intro-text-size;
+        font-family: $code-font;
+        background-color: $intro-text-color;
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+
     .intro-box {
       position: absolute;
       width: 320px;
@@ -446,15 +456,6 @@ body {
     -webkit-tap-highlight-color: rgba($light, 0.2);
 }
 
-/* Added in { Personal } for Typed Cursor in Header */
-.typed-cursor{
-    font-size: $intro-text-size;
-    background-color: $intro-text-color;
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
