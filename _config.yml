@@ -179,6 +179,48 @@ events:
 
 timeline-img: "/assets/water_droplets.png"
 
+########
+# Team #
+########
+
+team_members:
+  - image: "/assets/leah_makley.jpg"
+    name: "Leah Makley, Ph.D."
+    position: "Advisor"
+    bio: "Resident chemist, helping out with all the little molecules and their friends."
+  - image: "/assets/ted_hullar.jpg"
+    name: "Ted Hullar, Ph.D."
+    position: "Advisor"
+    bio: "Resident meteorologist, helping with predictions, modeling, and Science.™"
+  - image: "/assets/clayrichardson.jpg"
+    name: "clay richardson"
+    position: "Artist, Engineer"
+    bio: "ex-Twitter, software, hardware, robotics, operations, thermodynamics, LED sculptures, etc."
+  - image: "/assets/erikapappas.jpg"
+    name: "Erika Pappas"
+    position: "Artist"
+    bio: "Does things"
+  - image: "/assets/sherryezhuthachan.jpg"
+    name: "Sherry Ezhuthachan"
+    position: "Artist"
+    bio: "Feminist. Photographer. World Traveler. Introvert. Life Observer. Sensitive Soul. Idealist. Change Maker."
+  - image: "/assets/alex_alekseyenko.png"
+    name: "Alex Alekseyenko"
+    position: "Engineer"
+    bio: "Problem solving enthusiast"
+  - image: "/assets/bobby_cox.png"
+    name: "Bobby Cox"
+    position: "Engineer"
+    bio: "Does things"
+  - image: "/assets/lee_gentry.jpg"
+    name: "Lee Gentry"
+    position: "Product Manager"
+    bio: "Does various things"
+  - image: "/assets/william_albright.jpg"
+    name: "William Albright"
+    position: "Engineer"
+    bio: "Web engineer with interests in science and social justice"
+
 ###########
 # Contact #
 ###########
@@ -218,7 +260,8 @@ pages_list:
   Blog: 'latest-post'
   Timeline: 'timeline'
   FAQ: 'faq'
-#   Contact: 'contact'
+  Team: 'team'
+  Contact: 'contact'
 
 # Exclusion list from the generated _site
 
