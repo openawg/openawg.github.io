@@ -39,6 +39,11 @@ h6 {
 
 h2 {font-size: 26px;}
 
+.footnotes p {
+  margin: 0 0 0px;
+  font-size: smaller;
+}
+
 p {
     margin: 0 0 25px;
     font-size: $base-font-size;
@@ -333,6 +338,11 @@ video#bgvid.fillWidth {
         -moz-transform: scale(1);
         transform: scale(1);
     }
+}
+
+section#about ol {
+  text-align: left;
+  -webkit-padding-start: 0px;
 }
 
 .content-section {

@@ -269,8 +269,8 @@ pages_list:
   Blog: 'latest-post'
   Team: 'team'
   FAQ: 'faq'
-  Contact: 'contact'
   Timeline: 'timeline'
+  Contact: 'contact'
 
 # Exclusion list from the generated _site
 
