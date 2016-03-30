@@ -267,10 +267,10 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
-  FAQ: 'faq'
   Team: 'team'
+  FAQ: 'faq'
   Contact: 'contact'
+  Timeline: 'timeline'
 
 # Exclusion list from the generated _site
 
