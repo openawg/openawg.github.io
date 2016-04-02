@@ -224,7 +224,7 @@ video#bgvid.fillWidth {
     }
 
     .intro-text {
-      font-size: $base-font-size;
+      font-size: $intro-text-size;
       font-family: $code-font;
       background: black;
       @if $navbar-text-shadow {
