@@ -1,5 +1,7 @@
 ---
 layout: post
+section-type: post
+comments: true
 tags: [indiegogo]
 title: Indiegogo Campaign Launched
 ---
