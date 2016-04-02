@@ -252,6 +252,9 @@ social:
 #  - title: "rss"
 #    url: "/feed.xml"
 
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+
 ############
 # 404 page #
 ############
