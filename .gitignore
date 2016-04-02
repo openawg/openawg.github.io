@@ -10,11 +10,17 @@ tramp
 
 _site/
 .sass-cache/
-*.swp
 pkg/
 test/
 _deploy/*
 .jekyll-metadata
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+*~
 
 # Ruby
 .bundle/
