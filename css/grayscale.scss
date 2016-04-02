@@ -207,7 +207,7 @@ video#bgvid.fillWidth {
   text-align: center;
   color: $intro-text-color;
   {% if site.background-img %}
-  background: url({{ site.background-img }}) no-repeat bottom center scroll;
+  background: url({{ site.background-img }}) no-repeat bottom left scroll;
   {% endif %}
   background-color: $header-background-color;
   -webkit-background-size: cover;
