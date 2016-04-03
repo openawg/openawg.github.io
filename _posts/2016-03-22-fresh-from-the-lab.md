@@ -130,7 +130,7 @@ Many of the possible sources of turbidity would make water unsafe to drink, but 
 \[0\]: <a href="https://www.epa.gov/your-drinking-water/table-regulated-drinking-water-contaminants">EPA - National Primary Drinking Water Regulations</a>
 
 <h2>Further testing needed</h2>
-We have a list of further tests we would like to run on the water, and water testing is expensive, but you can help! We are launching our first Indiegogo campaign soon, and we’d love for you to be a part of this project.
+We have a list of further tests we would like to run on the water, and water testing is expensive, but you can help! <a href="https://igg.me/at/thechurchofwater">We have launched our Indiegogo campaign</a>, and we’d love for you to be a part of this project.
 
 VOCs (volatile organic compounds)
 <br>
