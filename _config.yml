@@ -205,7 +205,7 @@ team_members:
     position: "Artist"
     bio: "Project management and media"
   - image: "/assets/alex_alekseyenko.png"
-    link: ""
+    link: "https://experiment.com/users/AlexAlex"
     name: "Alex Alekseyenko"
     position: "Engineer"
     bio: "Problem solving enthusiast"
