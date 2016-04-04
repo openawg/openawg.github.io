@@ -278,7 +278,7 @@ pages_list:
   Team: 'team'
   FAQ: 'faq'
   Timeline: 'timeline'
-  Contact: 'contact'
+  Email: 'email'
 
 # Exclusion list from the generated _site
 
