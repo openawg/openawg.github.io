@@ -85,8 +85,13 @@ a {
   }
 }
 
+a.navbar-brand img {
+  height: 16px;
+  width: 16px;
+}
+
 .navbar-custom.navbar-fixed-bottom.top-nav-collapse {
-  a.navbar-brand{
+  a.navbar-brand {
     color: $primary;
     font-size: 14px;
   }

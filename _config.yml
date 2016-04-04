@@ -46,7 +46,7 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/white-favicon-20x20.png"
+black-favicon: "/img/openawg-logo-white.svg"
 
 background-img: "/assets/DehumidifierCloseupWebsiteStill.jpg"
 background-video: "/assets/DehumidifierCloseupWebsite.mp4"
