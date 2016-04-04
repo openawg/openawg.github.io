@@ -1,6 +1,11 @@
 
 # Site settings
 
+# Status line
+
+status: "Indiegogo campaign is live"
+status-link: "https://igg.me/at/thechurchofwater"
+
 # NB! Set your site's url, otherwise stuff will break :)
 
 url: "https://openawg.github.io"

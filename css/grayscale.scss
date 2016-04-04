@@ -78,6 +78,13 @@ a {
     width: $large-screen-width;
   }
 }
+
+.navbar-fixed-bottom {
+  a.navbar-brand{
+    color: $primary;
+  }
+  border-top: 1px solid rgba($light, 0.3);
+}
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($light, 0.3);
