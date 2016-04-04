@@ -79,18 +79,19 @@ Potassium: 0.214 mg/L
 <br>
 Sodium: 0.502 mg/L
 
-Drinking a large amount of perfectly pure water devoid of any salts or minerals is dangerous. It is important that water contains osmolytes so that cells in the body don’t explode due to osmotic imbalance.<sup>0</sup> These osmolytes typically consist of calcium, potassium, and sodium salts. In addition to affecting the osmotic strength of the water, they can also affect taste.
+Drinking a large amount of perfectly pure water devoid of any salts or minerals is not advised. It is important that water contains osmolytes, as your body uses these minerals for cellular functions.<sup>0</sup> These osmolytes typically consist of calcium, potassium, and sodium salts. In addition to affecting the osmotic strength of the water, they can also affect taste.
 
-Calcium content in bottled water available in North America has been found to range from 1 — 240 mg/L, and 0 — 546 mg/L for bottled water available in Europe.<sup>1</sup>
+Calcium content in bottled water available in North America has been found to range from 1 — 240 mg/L, and 0 — 546 mg/L for bottled water available in Europe.<sup>2</sup>
 
-Since the recommended daily requirement for potassium is greater than 3000 mg, the WHO does not consider it necessary to establish a health-based guideline value for potassium in drinking water.<sup>2</sup>
+Since the recommended daily requirement for potassium is greater than 3000 mg, the WHO does not consider it necessary to establish a health-based guideline value for potassium in drinking water.<sup>3</sup>
 
-Sodium salts are typically found in potable water at concentrations less than 20 mg/L, as well as most foods, therefore no health-based guideline is proposed by the WHO.<sup>3</sup>
+Sodium salts are typically found in potable water at concentrations less than 20 mg/L, as well as most foods, therefore no health-based guideline is proposed by the WHO.<sup>4</sup>
 
 <h4>Conclusion</h4>
 The mineral content of the water following remineralization is appropriate.
 
-\[0\]: <a href="https://en.wikipedia.org/wiki/Osmosis#Mechanism">Wikipedia - Osmosis</a>
+<br>
+\[0\]: <a href="http://www.who.int/water_sanitation_health/dwq/nutrientschap12.pdf">WHO - Health risks from drinking demineralised water</a>
 <br>
 \[1, page 45\]: <a href="http://apps.who.int/iris/bitstream/10665/43836/1/9789241563550_eng.pdf">Calcium and magnesium in drinking-water: Public health significance</a>
 <br>
