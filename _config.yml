@@ -46,7 +46,7 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/white-favicon-20x20.png"
 
 background-img: "/assets/DehumidifierCloseupWebsiteStill.jpg"
 background-video: "/assets/DehumidifierCloseupWebsite.mp4"
