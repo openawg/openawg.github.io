@@ -98,7 +98,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Access to credit plays a significant role in triggering household sanitation investments, increasing health and providing families the dignity of a toilet."
 
 img-me: "/assets/IGG_FundedWithBadges_WhiteOutlined_RGB.png"
-img-me-link: "https://igg.me/at/thechurchofwater"
+img-me-link: "https://www.indiegogo.com/projects/the-church-of-water-open-source-water-generation/"
 
 ################
 # Web app mode #
@@ -148,7 +148,7 @@ events:
     description: "Work is currently ongoing for modeling, prototyping, and figuring out budgets and fundraising"
   - image: "/assets/IGG_FundedWithBadges_Gogenta_RGB.png"
     date: "March 2016"
-    description: "<a href=\"https://igg.me/at/thechurchofwater/\">Indiegogo campaign for openAWGv0 launched!</a>"
+    description: "<a href=\"https://www.indiegogo.com/projects/the-church-of-water-open-source-water-generation/\">Indiegogo campaign for openAWGv0 launched!</a>"
   - image: "/assets/LabChemicals.png"
     date: "March 2016"
     description: "<a href=\"/2016/03/22/fresh-from-the-lab.html\">Lab reports from first BlueIce Alpha experiment are received</a>"

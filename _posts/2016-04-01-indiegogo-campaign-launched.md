@@ -5,7 +5,7 @@ comments: true
 tags: [indiegogo]
 title: Indiegogo Campaign Launched
 ---
-We have <a href="https://igg.me/at/thechurchofwater">launched our campaign</a> to fund our open source research and development!
+We have <a href="https://www.indiegogo.com/projects/the-church-of-water-open-source-water-generation/">launched our campaign</a> to fund our open source research and development!
 <!--more-->
 
 ### Who
