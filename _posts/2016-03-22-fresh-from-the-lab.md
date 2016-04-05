@@ -21,7 +21,7 @@ We generated water from the atmosphere and flushed the filtration system with th
 <h3>pH</h3>
 Effluent: 9.10
 
-pH is a measure of the acidity of the water (defined as the negative logarithm of the concentration of hydronium ions in moles per liter).<sup>0</sup> The lower the pH, the more basic the water. Solutions that are neutral have a pH of 7. Our water was tested at 6.67 prior to remineralization (Test 1), and found to be 9.10 following remineralization (Test 0). The remineralization filter changes the pH of the water from 6.67 to 9.10 through the addition of calcium, magnesium, sodium, and potassium.<sup>1</sup>
+pH is a measure of the acidity of the water (defined as the negative logarithm of the concentration of hydronium ions in moles per liter).<sup>0</sup> The higher the pH, the more basic the water. Solutions that are neutral have a pH of 7. Our water was tested at 6.67 prior to remineralization (Test 1), and found to be 9.10 following remineralization (Test 0). The remineralization filter changes the pH of the water from 6.67 to 9.10 through the addition of calcium, magnesium, sodium, and potassium.<sup>1</sup>
 
 pH does not have a MCL (Maximum Contaminant Level) defined in the EPA’s (Environmental Protection Agency) NPDWRs (National Primary Drinking Water Regulations),<sup>2</sup> but does have a SMCL (Secondary Maximum Contaminant Level) defined in the NSDWRs (National Secondary Drinking Water Regulations, which are non-mandatory guidelines for aesthetics like taste, color, and odor) at 6.5 — 8.5.<sup>3</sup>
 
