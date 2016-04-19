@@ -10,7 +10,7 @@ TL;DR: We built a test chamber out of foam, and put some sensors in it to test t
 <!--more-->
 
 ## Narrative
-We have acquired some sensors, and constructed the first of many test chambers. This chamber contains the evaporator coils of the heat pump and sensors. This data is available on [GitHub](https://github.com/openawg/openawg).
+We have acquired some sensors, and constructed the first of many test chambers. This chamber contains the evaporator coils of the heat pump and sensors. This data is available on [GitHub](https://github.com/openawg/openawg/tree/master/data/experiments/am2302).
 
 ## Problem 0
 
