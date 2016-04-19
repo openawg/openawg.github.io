@@ -6,6 +6,9 @@ tags: [science]
 title: First test chamber constructed
 ---
 
+TL;DR: We built a test chamber out of foam, and put some sensors in it to test the heat pump. It gets cold. We have more sensors to test.
+<!--more-->
+
 ## Narrative
 We have acquired some sensors, and constructed the first of many test chambers. This chamber contains the evaporator coils of the heat pump and sensors. This data is available on [GitHub](https://github.com/openawg/openawg).
 
@@ -92,4 +95,4 @@ Test 2x [AM2302 (wired DHT22)  temperature-humidity sensor](http://www.adafruit.
 Test 2x [AM2315 - Encased I2C Temperature/Humidity Sensor](http://www.adafruit.com/products/1293).
 
 [![Moar sensars](/assets/adafruitsensors.jpg)](/assets/adafruitsensors.jpg){:target="\_blank"}
-<a name="fig6">&nbsp;</a>\[fig6\]: [Moar sensors](/assets/adafruitsensors.jpg){:target="\_blank"}
+<a name="fig7">&nbsp;</a>\[fig7\]: [Moar sensors](/assets/adafruitsensors.jpg){:target="\_blank"}
