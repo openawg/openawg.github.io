@@ -6,7 +6,7 @@ tags: [science]
 title: First test chamber constructed
 ---
 
-TL;DR: We built a test chamber out of foam, and put some sensors in it to test the heat pump. It gets cold. We have more sensors to test.
+TL;DR: We built a test chamber out of foam, and put some sensors in it to test the heat pump. It gets cold. We have more sensors and heat pumps to test.
 <!--more-->
 
 ## Narrative
