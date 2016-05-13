@@ -3,8 +3,8 @@
 
 # Status line
 
-status: "Get your openawg shirt now!"
-status-link: "https://www.indiegogo.com/projects/the-church-of-water-open-source-water-generation"
+status: "Come see us at Maker Faire Bay Area!"
+status-link: "https://makerfaire.com/maker/entry/55250/"
 
 # NB! Set your site's url, otherwise stuff will break :)
 
@@ -97,8 +97,8 @@ lines: # You can add HTML Tags in the Text
   - text: "Annual aid for water and sanitation amounts to only US $8 billion--far short of the $1 trillion needed to solve this crisis and maintain it long term."
   - text: "Access to credit plays a significant role in triggering household sanitation investments, increasing health and providing families the dignity of a toilet."
 
-img-me: "/assets/IGG_FundedWithBadges_WhiteOutlined_RGB.png"
-img-me-link: "https://www.indiegogo.com/projects/the-church-of-water-open-source-water-generation/"
+img-me: "/assets/MF16BA_Badge_255.png"
+img-me-link: "https://makerfaire.com/maker/entry/55250/"
 
 ################
 # Web app mode #
