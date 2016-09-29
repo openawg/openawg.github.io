@@ -6,6 +6,10 @@
 status: "openAWG at UN in Geneva"
 status-link: "/2016/06/10/human-rights-councill-youth-forum.html"
 
+img-me: "/assets/UN_Flag.png"
+img-me-link: "/2016/06/10/human-rights-councill-youth-forum.html"
+
+
 # NB! Set your site's url, otherwise stuff will break :)
 
 url: "https://openawg.github.io"
@@ -97,9 +101,6 @@ lines: # You can add HTML Tags in the Text
   - text: "Annual aid for water and sanitation amounts to only US $8 billion--far short of the $1 trillion needed to solve this crisis and maintain it long term."
   - text: "Access to credit plays a significant role in triggering household sanitation investments, increasing health and providing families the dignity of a toilet."
 
-img-me: "/assets/MF16BA_Badge_255.png"
-img-me-link: "https://makerfaire.com/maker/entry/55250/"
-
 ################
 # Web app mode #
 ################
@@ -146,6 +147,9 @@ events:
   - image: "/assets/work.png"
     date: "Now"
     description: "Work is currently ongoing for modeling, prototyping, and figuring out budgets and fundraising"
+  - image: "/assets/UN_Flag.png"
+    date: "June 2016"
+    description: "<a href=\"/2016/06/10/human-rights-councill-youth-forum.html\">openAWG participates in HRC Youth Forum at UN in Geneva</a>"
   - image: "/assets/IGG_FundedWithBadges_Gogenta_RGB.png"
     date: "March 2016"
     description: "<a href=\"https://www.indiegogo.com/projects/the-church-of-water-open-source-water-generation/\">Indiegogo campaign for openAWGv0 launched!</a>"
