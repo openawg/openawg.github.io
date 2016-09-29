@@ -3,8 +3,8 @@
 
 # Status line
 
-status: "Come see us at Maker Faire Bay Area!"
-status-link: "https://makerfaire.com/maker/entry/55250/"
+status: "openAWG at UN in Geneva"
+status-link: "/2016/06/10/human-rights-councill-youth-forum.html"
 
 # NB! Set your site's url, otherwise stuff will break :)
 
@@ -194,16 +194,6 @@ team_members:
     name: "clay richardson"
     position: "Artist, Engineer"
     bio: "ex-Twitter, software, hardware, robotics, operations, light weaver, dropout"
-  - image: "/assets/erika_pappas.jpg"
-    link: ""
-    name: "Erika Pappas"
-    position: "Artist"
-    bio: "Experienced in the visual arts, extending into installation and design"
-  - image: "/assets/sherry_ezhuthachan.jpg"
-    link: "http://sherryje.com/"
-    name: "Sherry Ezhuthachan"
-    position: "Artist"
-    bio: "Project management and media"
   - image: "/assets/alex_alekseyenko.png"
     link: "https://experiment.com/users/AlexAlex"
     name: "Alex Alekseyenko"
@@ -214,11 +204,6 @@ team_members:
     name: "Bobby Cox"
     position: "Engineer"
     bio: "Does things"
-  - image: "/assets/lee_gentry.jpg"
-    link: "https://www.linkedin.com/in/leegentry"
-    name: "Lee Gentry"
-    position: "Product Manager"
-    bio: "Does various things"
   - image: "/assets/william_albright.jpg"
     link: "http://ewilli.am/"
     name: "William Albright"
